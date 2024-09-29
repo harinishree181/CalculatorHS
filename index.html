@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link href="calculator_17578648.png" rel="icon">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <div id="calc-mainbox">
+            <h1 class="title">Calculator</h1>
+            <input type="text" id="display" on="inputval()" />
+            <div class="btn-main">
+                <div id="btn-wrap">
+                    <button class="btn" onclick="valclr()">AC</button>
+                    <button class="btn" onclick="charclr()">C</button>
+                    <button class="btn" onclick="btnval('%')">%</button>
+                    <button class="btn" onclick="btnval('()')">()</button>
+                </div>
+
+                <div id="btn-wrap">
+                    <button class="btn" onclick="btnval(7)">7</button>
+                    <button class="btn" onclick="btnval(8)">8</button>
+                    <button class="btn" onclick="btnval(9)">9</button>
+                    <button class="btn" onclick="btnval('/')">/</button>
+                </div>
+
+                <div id="btn-wrap">
+                    <button class="btn" onclick="btnval(4)">4</button>
+                    <button class="btn" onclick="btnval(5)">5</button>
+                    <button class="btn" onclick="btnval(6)">6</button>
+                    <button class="btn" onclick="btnval('*')">*</button>
+                </div>
+
+                <div id="btn-wrap">
+                    <button class="btn" onclick="btnval(1)">1</button>
+                    <button class="btn" onclick="btnval(2)">2</button>
+                    <button class="btn" onclick="btnval(3)">3</button>
+                    <button class="btn" onclick="btnval('-')">-</button>
+                </div>
+
+                <div id="btn-wrap">
+                    <button class="btn" onclick="btnval('.')">.</button>
+                    <button class="btn" onclick="btnval(0)">0</button>
+                    <button class="btn" onclick="btnval('+')">+</button>
+                    <button class="btn" onclick="calcval()">=</button>
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+<script src="script.js"></script>
+
+</html>

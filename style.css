@@ -1,0 +1,55 @@
+#calc-mainbox {
+    width: 500px;
+    height: 650px;
+    border: none;
+    background-color: #ff1888;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.title {
+    text-align: center;
+    font-family: "Mali", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: #f9e5f1;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+#display {
+    border: none;
+    border-radius: 50px;
+    width: 402px;
+    height: 24px;
+    margin: 20px 0px;
+    background-color: #fdb9e1;
+    padding: 20px;
+    font-size: 32px;
+    color: #ff009d;
+    font-family: ui-monospace;
+}
+#display:hover{
+    background-color: #f9e5f1;
+    cursor: pointer;
+    border: none;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #ff009d;
+    background-color: #fdb9e1;
+    border: none;
+    margin: 10px 10px 0px;
+}
+
+.btn:hover{
+    background-color: #f9e5f1;
+    cursor: pointer;
+}
